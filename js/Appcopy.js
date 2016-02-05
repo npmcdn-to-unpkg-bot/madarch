@@ -1,7 +1,4 @@
-$(window).load(function() {
-    $(".myclass").delay(4000).show();
-});
-
+ 
 $(".clickcultural").click(function(){
     $(".gallery, .barinfo").hide();
     $(".win").load ("Projects.html .loadpage", function() {
