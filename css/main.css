@@ -1,8 +1,4 @@
 /* external css: flickity.css Start*/
-.myclass{
-    display: none;
-}
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -10,6 +6,7 @@
 
 
 .gallery {
+    display: none;
   background: #fff;
   padding-top: 7.5%;
   margin-left: 14%;

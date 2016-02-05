@@ -1,4 +1,7 @@
- 
+$(window).load(function() {
+    $(".gallery").show();
+});
+
 $(".clickcultural").click(function(){
     $(".gallery, .barinfo").hide();
     $(".win").load ("Projects.html .loadpage", function() {
