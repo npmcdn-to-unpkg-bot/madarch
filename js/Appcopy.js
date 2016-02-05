@@ -1,17 +1,8 @@
 // external js: flickity.pkgd.js
-
-$(document).ready( function() {
-		  var $gallery = $('.gallery').flickity();
-
-  // previous
-  $('.button--previous').on( 'click', function() {
-    $gallery.flickity('previous');
-  });
-  // previous wrapped
-  $('.button--previous-wrapped').on( 'click', function() {
-    $gallery.flickity( 'previous', true );
-  });
-});
+$(function() {
+    // do work
+    $("gallery").show();
+}
 
 $(".clickcultural").click(function(){
     $(".gallery, .barinfo").hide();
