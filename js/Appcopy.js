@@ -1,5 +1,5 @@
-$(window).load(function() {
-    $(".gallery").show();
+$(document).ready(function() {
+    $(".gallery").delay(8000).fadeIn(500);
 });
 
 $(".clickcultural").click(function(){
