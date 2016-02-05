@@ -9,6 +9,11 @@
   background: #fff;
   padding-top: 7.5%;
   margin-left: 14%;
+visibility:hidden;
+}
+
+.myclass {
+   visibility: visible;
 }
 
 .gallery img {

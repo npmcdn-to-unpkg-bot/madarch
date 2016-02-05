@@ -1,8 +1,6 @@
-// external js: flickity.pkgd.js
-$(function() {
-    // do work
-    $("gallery").show();
-}
+$(window).load(function() { 
+    $('.gallery').addClass("myclass");
+});
 
 $(".clickcultural").click(function(){
     $(".gallery, .barinfo").hide();
