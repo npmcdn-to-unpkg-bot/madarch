@@ -1,9 +1,3 @@
-$(function() {
-    // do work
-    $("div#myclass").show();
-}
-
-
 $(".clickcultural").click(function(){
     $(".gallery, .barinfo").hide();
     $(".win").load ("Projects.html .loadpage", function() {
