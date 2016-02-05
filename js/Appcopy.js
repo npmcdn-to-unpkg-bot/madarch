@@ -1,6 +1,7 @@
-$(window).load(function() {
-      $("myclass").fadeIn("slow");
-});
+$(function() {
+    // do work
+    $("div#myclass").show();
+}
 
 
 $(".clickcultural").click(function(){
