@@ -1,5 +1,5 @@
 $(window).load(function() {
-      $("body").fadeIn("slow");
+      $("myclass").fadeIn("slow");
 });
 
 
