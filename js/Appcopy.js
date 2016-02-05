@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).load(function() {
     $(".myclass").delay(4000).show();
 });
 
