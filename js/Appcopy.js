@@ -1,6 +1,7 @@
-$(window).load(function() { 
-    $('.gallery').addClass("myclass");
+$(window).load(function() {
+      $("body").fadeIn("slow");
 });
+
 
 $(".clickcultural").click(function(){
     $(".gallery, .barinfo").hide();
