@@ -6,7 +6,6 @@
 
 
 .gallery {
-    display: none;
   background: #fff;
   padding-top: 7.5%;
   margin-left: 14%;
@@ -17,7 +16,6 @@
 
 .gallery img {
     display: inline-block;
-    height: 200px;
     margin-left: 2px;
     margin-right: 2px; 
     background: #FAFAFA;
@@ -44,7 +42,6 @@
 
 @media screen and ( min-width: 480px ) {
 .gallery img {
-    height: 350px;
   }}
 
 @media screen and ( min-width: 1600px ) {
