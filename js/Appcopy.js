@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $(".myclass").delay(4000).fadeIn(500);
+});
+
 $(".clickcultural").click(function(){
     $(".gallery, .barinfo").hide();
     $(".win").load ("Projects.html .loadpage", function() {
